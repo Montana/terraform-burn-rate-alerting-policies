@@ -1,6 +1,6 @@
 # terraform-burn-rate-alerting-policies
 
-Burn rate indicates the speed at which your error budget is being consumed, relative to the SLO. Using the previous example, if you have an average error rate of 5% for the 30-day period, all your error budget will be consumed, corresponding to a burn rate of 1. If you were to have a burn rate of 2, all available error budget would be consumed in half the time window (15days).
+Burn rate indicates the speed at which your error budget is being consumed, relative to the SLO. Using some of the examples above in Terraform, if you have an average error rate of 5% for the 30-day period, all your error budget will be consumed, corresponding to a burn rate of 1. If you were to have a burn rate of 2, all available error budget would be consumed in half the time window (15days).
 
  
 ![image](https://user-images.githubusercontent.com/20936398/201249900-249944c4-9c08-40fc-8ae2-ac55fa258da0.png)
