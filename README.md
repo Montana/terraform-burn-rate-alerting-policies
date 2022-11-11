@@ -10,7 +10,7 @@ By configuring alerts based on burn rate, you can be sure a significant portion 
 
 You can extend the concept of burn rate to consider multiple burn rates and multiple windows. Instead of only looking at all your window you could, for example, look at the last 2h and 24h and consider these as your fast and slow burn rates. These alerts would allow you to catch sudden and large changes in error budget consumption. You could decide, for example,  that a burn rate of 10 in the last 2h would require your immediate attention.
 
-When these are triggered you can be sure actions need to be performed. Maybe engineers need to jump on a conference call and write a postmortem document. Or maybe they need to stop feature work and focus on reliability features for the next sprint. Thank you to @ptsteadman for getting me interested in this topic. 
+When these are triggered you can be sure actions need to be performed. Maybe engineers need to jump on a conference call and write a postmortem document. Or maybe they need to stop feature work and focus on reliability features for the next sprint. Thank you to [Patrick Steadman](https://www.github.com/ptsteadman) for getting me interested in this topic. 
 
 # Jsonnet example: 
 
